@@ -1,0 +1,24 @@
+import {
+    Box,
+    Center,
+    Image, Text, VStack, HStack
+} from '@chakra-ui/react';
+
+export default function Part8() {
+    return (
+        <div>
+            <Box marginTop={'100px'} marginBottom={'100px'}>
+                <Center margin={'auto'}>
+                    <Text fontSize={'4xl'} as='b'>Trusted by 150,000+ monthly active users</Text>
+                </Center>
+                <HStack justifyContent={'center'} flexWrap={'wrap'} marginTop={'50px'} spacing={40}>
+                    <Image src='https://mailtrap.io/wp-content/uploads/2021/04/Adobe.svg' />
+                    <Image src='https://mailtrap.io/wp-content/uploads/2021/04/Atlassian.svg' />
+                    <Image src='https://mailtrap.io/wp-content/uploads/2021/04/Calendly.svg' />
+                    <Image src='https://mailtrap.io/wp-content/uploads/2021/04/Yelp.svg' />
+                    <Image src='https://mailtrap.io/wp-content/uploads/2021/04/UserTesting.svg' />
+                </HStack>
+            </Box>
+        </div>
+    )
+}
